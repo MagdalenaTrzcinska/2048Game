@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+article.game {
+    width: 460px;
+    height: 610px;
+    background-color: #faf7ec;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.game__panel {
+    height: 150px;
+    position: relative;
+}
+
+.panel__logo {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #635a54;
+}
+
+.panel__total {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.score,
+.best {
+    margin: 2px;
+    float: left;
+    height: 45px;
+    width: 80px;
+    background-color: #ad9d8f;
+    text-align: center;
+}
+
+p {
+    margin: 5px 0 2px 0;
+    font-size: 10px;
+    font-weight: 600;
+    color: #eadbcd;
+}
+
+.score span,
+.best span {
+    color: white;
+    font-size: 18px;
+}
+
+button.newGame {
+    border: none;
+    background-color: #6d645e;
+    padding: 7px 15px;
+    color: #cec0b0;
+    font-weight: 600;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table,
+td {
+    border-collapse: collapse;
+    border: 10px solid #a8a095;
+}
+
+tr,
+td {
+    width: 100px;
+    height: 100px;
+    background-color: #dfd1c1;
+}
+
+
+
+
+.card {
+    line-height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+._2 {
+     background-color: #eaded2;
+     color: #635a54;
+ }
+
+._4 {
+    background-color: #ead8bc;
+    color: #635a54;
+}
+
+._8 {
+    background-color: #eea266;
+}
+
+._16 {
+    background-color: #f08153;
+}
+
+._32 {
+    background-color: #f0664e;
+}
+
+._64 {
+    background-color: #f1452e;
+}
+
+._128 {
+    background-color: #e9c65e;
+}
+
+._256 {
+    background-color: #eec83b;
+}
+
+._512 {
+    background-color: #e8be3f;
+}
+
+._1024 {
+    background-color: #dbae12;
+}
+
+._2048{
+    background-color: #e9b626;
+}
